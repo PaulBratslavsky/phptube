@@ -3,7 +3,7 @@
 
     <div class="column">
         <h2>Upload Page</h2>
-        <?php   $formProvider = new VideoDetailsFormProvider(); ?>
+        <?php   $formProvider = new VideoDetailsFormProvider( $connection ); ?>
         <?php   echo $formProvider->createUploadForm(); ?>
         
     </div>
