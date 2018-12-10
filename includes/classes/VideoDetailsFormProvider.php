@@ -1,6 +1,6 @@
 <?php 
     class VideoDetailsFormProvider {
-
+        
         private $connection;
 
         public function __construct( $connection ) {
